@@ -1,0 +1,12 @@
+USER           = rdzhou
+WORKING_DIR    = /cita/d/homes/home-2/rdzhou/astro/Menou/PLUTO
+SYSTEM_NAME    = Linux
+NODE_NAME      = cosmo2
+RELEASE        = 2.6.32-696.20.1.el6.x86_64
+ARCH           = x86_64
+BYTE_ORDER     = little
+VERSION        = #1 SMP Fri Jan 26 17:51:45 UTC 2018
+PLUTO_DIR      = /home/rdzhou/astro/Menou/PLUTO
+PLUTO_VERSION  = "4.2"
+C_COMPILER     = gcc
+MPI_C_COMPILER = 
