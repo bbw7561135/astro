@@ -6,9 +6,9 @@
 #define  COOLING                 NO
 #define  RECONSTRUCTION          LINEAR
 #define  TIME_STEPPING           RK2
-#define  DIMENSIONAL_SPLITTING   NO
+#define  DIMENSIONAL_SPLITTING   YES
 #define  NTRACER                 0
-#define  USER_DEF_PARAMETERS     0
+#define  USER_DEF_PARAMETERS     1
 
 /* -- physics dependent declarations -- */
 
@@ -20,6 +20,7 @@
 
 /* -- user-defined parameters (labels) -- */
 
+#define  SCRH                    0
 
 /* [Beg] user-defined constants (do not change this line) */
 

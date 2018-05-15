@@ -75,12 +75,13 @@ for i in range(0,len(candidate)):
 	else:
 			unclassified.append(candidate[i])
 			unclassified_index.append(index[i])
-print ('Number of candidates: ', count)
-print len(index),' ',len(candidate)
-print ('Class1: ',len(class1))
-print ('Flat: ', len(flat))
-print ('Class2: ', len(class2))
-print ('Class3: ', len(class3))
-print ('Unclassified: ', len(unclassified))
+print 'Total number of stars: ', len(new)
+print 'Number of candidates: ', count
+#print len(index),' ',len(candidate)
+print 'Class1: ',len(class1)
+print 'Flat: ', len(flat)
+print 'Class2: ', len(class2)
+print 'Class3: ', len(class3)
+print 'Unclassified: ', len(unclassified)
 #for i in class1:
 #	print i

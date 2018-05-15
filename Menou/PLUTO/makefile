@@ -7,7 +7,7 @@
 pluto:                              # Default target
 
 ARCH         = Darwin.gcc.defs
-PLUTO_DIR    = /home/rdzhou/astro/Menou/PLUTO
+PLUTO_DIR    = /cita/d/homes/home-2/rdzhou/astro/Menou/PLUTO
 SRC          = $(PLUTO_DIR)/Src
 INCLUDE_DIRS = -I. -I$(SRC)
 VPATH        = ./:$(SRC)/New:$(SRC):$(SRC)/Time_Stepping:$(SRC)/States
