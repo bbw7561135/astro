@@ -83,5 +83,8 @@ print 'Flat: ', len(flat)
 print 'Class2: ', len(class2)
 print 'Class3: ', len(class3)
 print 'Unclassified: ', len(unclassified)
+for i in range(100,len(candidate)):
+	print '\hline'
+	print i+1, '&',candidate[i][0],'&',candidate[i][1],'&',candidate[i][2],'&',candidate[i][3],'??'
 #for i in class1:
 #	print i
