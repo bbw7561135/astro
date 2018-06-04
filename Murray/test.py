@@ -54,9 +54,7 @@ for i in range(0,len(data)):
 PAH_2 = data[PAH_index_2]
 data.remove_rows(PAH_index_2)
                      
-print ('#PAH_1=',len(PAH_1))
-print ('#PAH_2=',len(PAH_2))
-print (len(data))
+
 
 ###############################################
 band4_5 = data['__4_5_']
@@ -83,6 +81,10 @@ for i in range(0,len(data)):
 
 AGN = data[AGN_index]
 data.remove_rows(AGN_index)
+print ('#PAH_1=',len(PAH_1))
+print ('#PAH_2=',len(PAH_2))
+print ('#AGN=',len(AGN))
+print (len(data))
 
 '''
 a_1 = PAH_1['__4_5_']-PAH_1['__8_0_']
