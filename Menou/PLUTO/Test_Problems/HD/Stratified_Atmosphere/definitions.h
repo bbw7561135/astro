@@ -1,11 +1,11 @@
 #define  PHYSICS                 HD
 #define  DIMENSIONS              2
 #define  COMPONENTS              2
-#define  GEOMETRY                CARTESIAN
-#define  BODY_FORCE              (VECTOR+POTENTIAL)
+#define  GEOMETRY                CYLINDRICAL
+#define  BODY_FORCE              POTENTIAL
 #define  COOLING                 POWER_LAW
-#define  RECONSTRUCTION          LINEAR
-#define  TIME_STEPPING           RK2
+#define  RECONSTRUCTION          FLAT
+#define  TIME_STEPPING           EULER
 #define  DIMENSIONAL_SPLITTING   NO
 #define  NTRACER                 0
 #define  USER_DEF_PARAMETERS     1
@@ -20,7 +20,7 @@
 
 /* -- user-defined parameters (labels) -- */
 
-#define  ALPHA                   0
+#define                          0
 
 /* [Beg] user-defined constants (do not change this line) */
 

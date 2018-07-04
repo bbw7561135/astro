@@ -69,7 +69,7 @@ endif
 #   Additional_object_files_here   ! dont change this line
 # ---------------------------------------------------------
 
-OBJ += plm_states.o
+OBJ += flat_states.o
 OBJ += rk_step.o
 OBJ += update_stage.o
 OBJ += parabolic_flux.o

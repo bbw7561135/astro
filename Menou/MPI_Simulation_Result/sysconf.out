@@ -1,0 +1,12 @@
+USER           = rdzhou
+WORKING_DIR    = /cita/h/home-2/rdzhou/astro/Menou/MPI_Simulation_Result
+SYSTEM_NAME    = Linux
+NODE_NAME      = trinity.cita.utoronto.ca
+RELEASE        = 2.6.32-696.18.7.el6.x86_64
+ARCH           = x86_64
+BYTE_ORDER     = little
+VERSION        = #1 SMP Thu Jan 4 17:31:22 UTC 2018
+PLUTO_DIR      = /cita/h/home-2/rdzhou/astro/Menou/PLUTO
+PLUTO_VERSION  = "4.2"
+C_COMPILER     = gcc
+MPI_C_COMPILER = mpicc
