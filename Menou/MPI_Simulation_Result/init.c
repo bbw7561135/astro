@@ -43,7 +43,7 @@ void Init (double *v, double x1, double x2, double x3)
  *********************************************************************** */
 {
   v[RHO] = 1.0;
-  v[VX1] = 0.0;
+  v[VX1] = 0.2*sinh(x2)/cosh(x2);
   v[VX2] = 0.0;
   v[VX3] = 0.0;
   #if HAVE_ENERGY
@@ -220,7 +220,7 @@ void BodyForceVector(double *v, double *g, double x1, double x2, double x3)
 {
 
 	g[IDIR] = 0.02*(sinh(x2)/(cosh(x2)*cosh(x2)*cosh(x2)))+(0.01/(cosh(x2)*cosh(x2)));
-	g[JDIR] = 0.01*(-1+(1/(cosh(x1/5)*cosh(x1/5))));
+	g[JDIR] = -1+(1/(cosh(x1/5)*cosh(x1/5)));
 	g[KDIR] = 0.0;
 
   

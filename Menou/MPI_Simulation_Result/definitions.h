@@ -2,7 +2,7 @@
 #define  DIMENSIONS              2
 #define  COMPONENTS              2
 #define  GEOMETRY                CARTESIAN
-#define  BODY_FORCE              VECTOR
+#define  BODY_FORCE              (VECTOR+POTENTIAL)
 #define  COOLING                 POWER_LAW
 #define  RECONSTRUCTION          FLAT
 #define  TIME_STEPPING           EULER
